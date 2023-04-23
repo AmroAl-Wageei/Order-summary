@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --padding: 10px;
+  --margin: 10px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.image img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 11px;
+}
+.text h1 {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.text p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #c4bebe;
+}
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin-bottom: 20px;
+}
+.plan .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.plan .left h3 {
+  font-size: 15px;
+}
+.plan .left p {
+  font-size: 13px;
+  color: #c4bebe;
+}
+.plan .right {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: var(--Dark-blue);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+}
+.btn div .one {
+  color: #c4bebe;
+  font-size: 13px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn div a button {
+  background-color: var(--Bright-blue);
+  color: white;
+  padding: 10px;
+  width: 80%;
+  margin: 0 10%;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 5px 3px 10px var(--Dark-blue);
+}
