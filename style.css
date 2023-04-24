@@ -63,11 +63,12 @@ body {
 .text h1 {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
+  font-size: 22px;
   margin-bottom: 5px;
 }
 .text p {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   color: #c4bebe;
 }
@@ -92,8 +93,8 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.plan .left h3 {
-  font-size: 15px;
+.plan .left h4 {
+  font-size: 14px;
 }
 .plan .left p {
   font-size: 13px;
@@ -106,6 +107,7 @@ body {
   color: var(--Dark-blue);
   text-decoration: underline;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .btn {
